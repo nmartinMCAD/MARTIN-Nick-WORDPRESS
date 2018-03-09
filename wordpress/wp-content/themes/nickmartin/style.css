@@ -87,6 +87,10 @@ main, footer {
   padding-top: 1.5rem;
 }
 
+main {
+  margin-bottom: 3rem;
+}
+
 article.post {
   margin: auto;
   margin-top: 1rem;
@@ -95,18 +99,22 @@ article.post {
   color: #fff;
   position: relative;
   overflow: scroll;
-  height: 250px;
   width: 90%;
   max-width: 1200px;
 }
 
 .post h2 {
-  font-size: 2em;
+  font-size: 3em;
+  float: right;
+  width: 400px;
+  letter-spacing: .2rem;
 }
 
 .post p {
-  width: 60%;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  margin: 1rem 0;
+}
+
+.post img {
+  width: 500px;
+  height: 300px;
 }
