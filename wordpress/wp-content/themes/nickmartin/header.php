@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Poppins" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body <?php body_class(); ?>>
 
     <header>
       <h1><?php echo get_bloginfo('name'); ?></h1>
