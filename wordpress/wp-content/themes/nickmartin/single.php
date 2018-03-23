@@ -4,7 +4,7 @@
 
 <main>
 
-  <?php get_template_part('loop'); ?>
+  <?php get_template_part('single-loop'); ?>
 
 </main>
 
